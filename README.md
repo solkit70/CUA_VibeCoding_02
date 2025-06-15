@@ -1,7 +1,6 @@
-# OpenAI Realtime Console
+# Catch Up AI - Vibe Coding
 
-The OpenAI Realtime Console is intended as an inspector and interactive API reference
-for the OpenAI Realtime API. It comes packaged with two utility libraries,
+실시간 AI 통역 애플리케이션입니다. OpenAI의 실시간 API를 활용하여 실시간 음성 번역을 제공합니다.
 [openai/openai-realtime-api-beta](https://github.com/openai/openai-realtime-api-beta)
 that acts as a **Reference Client** (for browser and Node.js) and
 [`/src/lib/wavtools`](./src/lib/wavtools) which allows for simple audio
