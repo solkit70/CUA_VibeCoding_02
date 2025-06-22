@@ -58,6 +58,7 @@ const LandingPage: React.FC = () => {
       <Title>Catch Up AI 재미로 하는 Vibe Coding</Title>
       <LinksContainer>
         <StyledLink to="/translator">Original Translator</StyledLink>
+        <StyledLink to="/english-coach">English Conversation Coach</StyledLink>
         <StyledLink to="/translator-mod">Modified Translator</StyledLink>
       </LinksContainer>
     </Container>

@@ -1,0 +1,33 @@
+.scenario-selector {
+  padding: 1rem 0;
+}
+.scenario-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.scenario-item {
+  background: #f2f6fa;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  min-width: 180px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s, background 0.2s;
+  border: 2px solid transparent;
+}
+.scenario-item.selected, .scenario-item:hover {
+  background: #e6f0ff;
+  border-color: #0077ff;
+  box-shadow: 0 2px 8px rgba(0,119,255,0.08);
+}
+.scenario-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.scenario-description {
+  color: #666;
+  font-size: 0.95rem;
+}
