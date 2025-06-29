@@ -44,3 +44,36 @@
   color: #d32f2f;
   margin-top: 1rem;
 }
+.english-coach-page .content-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.home-btn {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.home-btn:hover {
+  background: #3576b8;
+}
+.english-coach-page .voice-select {
+  display: inline-block;
+  margin-left: 1.5rem;
+  vertical-align: middle;
+}
+.voice-select label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.voice-select select {
+  font-size: 1rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+}

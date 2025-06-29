@@ -1,3 +1,7 @@
+# Contributors
+
+- **AI siba**: 제안 및 구현 지원 - 남성/여성 Voice 선택 DropDown 기능, TTS 개선 등 사용자 음성 경험 향상에 기여 (2025-06-29)
+
 # Catch Up AI - Vibe Coding
 
 실시간 AI 통역 애플리케이션입니다. OpenAI의 실시간 API를 활용하여 실시간 음성 번역을 제공합니다.
