@@ -217,7 +217,7 @@ const EnglishCoachPage: React.FC = () => {
           </select>
         </div>
       </div>
-      <h1>English Conversation Coach</h1>
+      <h1>English Conversation Tutor</h1>
       {!selectedScenario ? (
         <div className="scenario-select-section">
           <h2>Select a Scenario</h2>
