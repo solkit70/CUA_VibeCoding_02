@@ -10,9 +10,12 @@ const Container = styled.div`
   justify-content: center;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 `;
 
 const Title = styled.h1`
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 2.5rem;
   text-align: center;
   color: #333;
@@ -42,6 +45,8 @@ const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
   border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 1.2rem;
   transition: transform 0.2s, box-shadow 0.2s;
   text-align: center;
@@ -55,7 +60,7 @@ const StyledLink = styled(Link)`
 const LandingPage: React.FC = () => {
   return (
     <Container>
-      <Title>Catch Up AI 재미로 하는 Vibe Coding</Title>
+      <Title>Catch Up AI 재미로 하는 Vibe Coding (Copilot)</Title>
       <LinksContainer>
         <StyledLink to="/translator">Original Translator</StyledLink>
         <StyledLink to="/english-coach">English Conversation Tutor</StyledLink>

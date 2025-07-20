@@ -1,10 +1,15 @@
 # Contributors
 
 - **AI siba**: 제안 및 구현 지원 - 남성/여성 Voice 선택 DropDown 기능, TTS 개선 등 사용자 음성 경험 향상에 기여 (2025-06-29)
+- **Helper dog**: 채팅 UI/UX 개선 및 사용자 경험 향상 작업 기여 (2025-07-20)
+- **AI siba**: 시스템 프롬프트 관리 및 설계 기여 (2025-07-20)
+- **국방부 대통령**: 채팅 인터페이스 디자인 개선 작업 기여 (2025-07-20)
+- **Park물러가라**: 메시지 버블 UI 구현 및 스타일링 기여 (2025-07-20)
+- **BJ Sim**: 애니메이션 효과 및 반응형 디자인 개선 기여 (2025-07-20)
 - **JamJam**: Gemini CLI 작업 기여 (2025-07-13)
 - **사공승환**: Gemini CLI 작업 기여 (2025-07-13)
 
-# Catch Up AI - Vibe Coding
+# Catch Up AI - Vibe Coding (Copilot)
 
 실시간 AI 통역 애플리케이션입니다. OpenAI의 실시간 API를 활용하여 실시간 음성 번역을 제공합니다.
 [openai/openai-realtime-api-beta](https://github.com/openai/openai-realtime-api-beta)
