@@ -55,7 +55,7 @@ const StyledLink = styled(Link)`
 const LandingPage: React.FC = () => {
   return (
     <Container>
-      <Title>Catch Up AI 재미로 하는 Vibe Coding</Title>
+      <Title>Catch Up AI 재미로 하는 Vibe Coding (Gemini)</Title>
       <LinksContainer>
         <StyledLink to="/translator">Original Translator</StyledLink>
         <StyledLink to="/english-coach">English Conversation Tutor</StyledLink>

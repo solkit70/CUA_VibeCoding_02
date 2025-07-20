@@ -1,8 +1,12 @@
 # Contributors
 
-- **AI siba**: 제안 및 구현 지원 - 남성/여성 Voice 선택 DropDown 기능, TTS 개선 등 사용자 음성 경험 향상에 기여 (2025-06-29)
+- **AI siba**: 제안 및 구현 지원 - 남성/여성 Voice 선택 DropDown 기능, TTS 개선 등 사용자 음성 경험 향상에 기여 (2025-06-29), 채팅 UI 개선 및 추가 기여자 등록 지원 (2025-07-20)
 - JamJam: Gemini CLI 작업 지원
 - 공대생 사공승환: Gemini CLI 작업 지원
+- Helper dog: Gemini CLI 작업 지원
+- 국방부 대통령: Gemini CLI 작업 지원
+- Park물러가라: Gemini CLI 작업 지원
+- BJ Sim: Gemini CLI 작업 지원
 
 # Catch Up AI - Vibe Coding
 

@@ -74,8 +74,13 @@ const EnglishCoachPage: React.FC = () => {
       const voicesList = window.speechSynthesis.getVoices();
       setVoices(voicesList.filter(v => v.lang === 'en-US'));
       // 기본값: 여성 우선, 없으면 첫 번째 en-US
-      const female = voicesList.find(v => v.lang === 'en-US' && (v.name.toLowerCase().includes('female') || v.name.toLowerCase().includes('woman') || v.name.toLowerCase().includes('samantha')));
-      setSelectedVoiceURI(female?.voiceURI || voicesList.find(v => v.lang === 'en-US')?.voiceURI || '');
+      const jenny = voicesList.find(v => v.lang === 'en-US' && v.name.toLowerCase().includes('jenny'));
+      if (jenny) {
+        setSelectedVoiceURI(jenny.voiceURI);
+      } else {
+        const female = voicesList.find(v => v.lang === 'en-US' && (v.name.toLowerCase().includes('female') || v.name.toLowerCase().includes('woman') || v.name.toLowerCase().includes('samantha')));
+        setSelectedVoiceURI(female?.voiceURI || voicesList.find(v => v.lang === 'en-US')?.voiceURI || '');
+      }
     };
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
       window.speechSynthesis.onvoiceschanged = loadVoices;
@@ -234,7 +239,10 @@ const EnglishCoachPage: React.FC = () => {
           </button>
           <div className="conversation-list">
             {conversation.map((msg, idx) => (
-              <div key={idx} className={`msg ${msg.role}`}>{msg.text}</div>
+              <div key={idx} className={`message-bubble ${msg.role === 'assistant' ? 'ai-message' : 'user-message'}`}>
+                <span className="emoji-icon">{msg.role === 'assistant' ? '🤖' : '👤'}</span>
+                <span className="message-text">{msg.text.replace(/^(AI: |User: )/, '')}</span>
+              </div>
             ))}
           </div>
           {englishEval && <div className="english-eval">{englishEval}</div>}
